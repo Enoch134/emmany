@@ -1,4 +1,4 @@
-import { Mentor } from "@/types/mentor";
+import { Mentor } from "../../types/mentor";
 import Image from "next/image";
 import Link from "next/link";
 

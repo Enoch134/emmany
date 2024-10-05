@@ -1,11 +1,11 @@
-import { Mentor } from "@/types/mentor";
+import { Mentor } from "../../types/mentor";
 
 const MentorData: Mentor[] = [
   {
     id: 1,
     title: "Chief Information Security Officer at SecureTech",
     paragraph:
-      "John has over 15 years of experience in the cybersecurity industry, specializing in threat intelligence, network security, and enterprise risk management. His leadership at SecureTech has been instrumental in shaping robust defense systems.",
+      "John has over 15 years of experience in the cybersecurity industry, specializing in threat intelligence, network security, and enterprise risk management. His leadership at SecureTech has been instrumental.",
     image: "/images/blog/blog-01.jpg",
     author: {
       name: "John Doe",
@@ -13,7 +13,7 @@ const MentorData: Mentor[] = [
       designation: "Expert advice on threat intelligence and risk management, guidance on securing leadership roles in cybersecurity.",
     },
     tags: ["creative"],
-    publishDate:["Threat Intelligence", "Network Security", "Risk Management"] ,
+    publishDate:"Threat Intelligence",
     
   },
   {
@@ -28,7 +28,7 @@ const MentorData: Mentor[] = [
       designation: "Hands-on training in ethical hacking and penetration testing, career advice for aspiring ethical hackers and consultants.",
     },
     tags: ["computer"],
-    publishDate: ["Ethical Hacking", "Penetration Testing", "Incident Response"],
+    publishDate: "Ethical Hacking",
   },
   {
     id: 3,
@@ -42,7 +42,7 @@ const MentorData: Mentor[] = [
       designation: "Specialized guidance in cloud security and architecture, mentorship on designing scalable and secure cloud infrastructures.",
     },
     tags: ["design"],
-    publishDate: ["Cloud Security", "Cloud Architecture", "Cloud Vulnerability Management"],
+    publishDate: "Cloud Security",
   },
 ];
 export default MentorData;
