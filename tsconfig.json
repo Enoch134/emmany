@@ -3,8 +3,8 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "baseUrl": ".",
     "paths": {
-			"@/*": ["./src/*"]
-		},
+      "@/*": ["./src/*"]
+    },
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -23,6 +23,11 @@
       }
     ]
   },
-  "include": ["next-env.d.ts", ".next/types/**/*.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    ".next/types/**/*.ts",
+    "src/app/**/*.ts", // Only include TypeScript files in 'app' folder
+    "src/components/**/*.ts" // Only include TypeScript files in 'components' folder
+  ],
   "exclude": ["node_modules"]
 }
