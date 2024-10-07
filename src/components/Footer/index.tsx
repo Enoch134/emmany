@@ -127,7 +127,7 @@ const Footer = () => {
                       href="/#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Year: 1
+                      Year: 2
                     </Link>
                   </li>
                   <li>
@@ -161,7 +161,7 @@ const Footer = () => {
                       href="/#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Semester 03
+                      Semester:3
                     </Link>
                   </li>
                   <li>
@@ -192,7 +192,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/#"
+                      href="#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Use
