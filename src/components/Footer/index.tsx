@@ -169,7 +169,7 @@ const Footer = () => {
                       href="/#"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Information and Technology
+                      DIT
                     </Link>
                   </li>
                 </ul>
@@ -238,7 +238,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                Information and communication
+                DIT
               </a>
             </p>
           </div>
