@@ -27,7 +27,7 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                Empowering Women in Cybersecurity
+                Empowering Women through Cyber Girls programs
                 </p>
                 <div className="flex items-center">
                   <a
