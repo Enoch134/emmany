@@ -16,7 +16,7 @@ const Hero = () => {
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Join the Cyber Girls initiative to bridge the gender gap 
-                in cybersecurity by providing training, mentorship, 
+                by providing training, mentorship, 
                 and opportunities to women worldwide.
                 </p>
               </div>
